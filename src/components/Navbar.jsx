@@ -24,7 +24,7 @@ const Navbar = () => {
     
         fetch("https://torre.ai/api/entities/_searchStream", requestOptions)
         .then(response => response.text())
-        .then(result => console.log(result))
+        .then(result => window.alert(result))
         .catch(error => console.log('error', error));
     }
     return (
