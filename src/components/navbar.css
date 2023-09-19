@@ -1,0 +1,43 @@
+nav {
+    background: rgba(34, 34, 34, 0.347);
+    width: 50rem;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15);
+}
+
+input {
+    background: rgb(43, 43, 43);
+    width: 50rem;
+    padding-left: 10%;
+    border-radius: 3rem;
+    border-width: 0cap;
+    color: azure;
+    border: none;
+}
+
+::placeholder {
+    color: rgb(147, 147, 147);
+}
+
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: left;
+    left: 5%;
+    color: var(--color-light);
+    font-size: 1.4rem;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.502);
+}
